@@ -1,0 +1,21 @@
+#contentBox{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+}
+a{
+    margin: 10px 5px;
+    font-size: 18px;
+    text-decoration: none;
+}

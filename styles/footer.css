@@ -1,0 +1,81 @@
+#footer{
+    background-color:#eef2f0 ;
+    font-size: 18px;
+    /* color: #bba490; */
+    color: #8b8b8b;
+    padding: 30px 100px;
+    margin-top: 40px;
+
+}
+#footer a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+#footer a:hover{
+    color:  #64574c;
+}
+
+
+
+#about{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    
+}
+#about>div{
+    width: 25%;
+}
+
+
+
+.headding{
+    color: black;
+    font-size: 20px;
+    font-weight:500;
+}
+.subHeadding{
+    color: #777777;
+    font-weight: 600;
+}
+.subHeaddingInfo{
+    color: #a3b49b;
+    font-weight: 600;
+}
+.subHeaddingInfo:hover{
+    color:#777777 ;
+    font-weight: 600;
+}
+
+
+.emailInputTab{
+    padding: 10px;
+    background-color: white;
+}
+.emailInputTab>input{
+    /* border: 0px solid white; */
+    border: none;
+    /* border: transparent; */
+    font-size: 16px;
+}
+
+
+#contactUs > div{
+    line-height: 15px;
+    margin-top: 40px;
+}
+
+
+#copyRightsStatement{
+    padding: 30px 10px;
+    font-size: 14px;
+}
+.statement{
+    border: 1px solid #a3b49b;
+    padding: 20px;
+    color: #898b8b;
+    
+}

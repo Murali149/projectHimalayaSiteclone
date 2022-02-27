@@ -1,0 +1,275 @@
+#freeShippingOffer{
+            background-color: #ff7451;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .largeFont{
+            font-weight: 700;
+            font-size: 19px;
+        }
+        .smallFont{
+            font-size: 19px;
+        }
+        
+    /* NAV BAR */
+        
+        #navBar{
+            display: flex;
+            padding: 10px;
+            height: 80px;
+            /* border: 1px solid yellow; */
+            justify-content: space-between;
+            font-size: 22px;
+            color: #493c3a;
+        }
+
+        
+        #leftNavbar{
+            display: flex;
+            flex-direction:row;
+            align-items:center;
+            gap: 35px;
+        }
+            
+        #logo{
+            width: 220px;
+        }
+            
+        #leftNavbar > :hover{
+            border-bottom: 2px solid green;
+            color: #b8a39f;
+        }
+        
+        #dropDownContent{
+            display: none;
+            /* width: 100%; */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            background-color: white;
+            font-size: 20px;
+            min-height: 400px;
+            /* position: relative; */
+            /* position: absolute; */
+            /* z-index: 10; */
+        }
+        
+        #shop:hover #dropDownContent {
+            /* margin-top: 40px; */
+            display: flex;
+            position: absolute;
+            left: 10%;
+            right: 10%;
+            top: 15%;
+            z-index: 1;
+            
+        }
+        
+        #mainMenu{
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            padding: 10px;
+            gap: 20px;
+            /* width: 70%; */
+            /* border: 1px solid black; */
+
+        }
+        #mainMenu>div{
+            display: flex;
+            flex-direction: column;
+            /* gap: 40px; */
+            width: 30%;
+            
+            /* line-height: 20px; */
+        }
+
+        #mainMenu a{
+            text-decoration: none;
+            font-size: 19px;
+            color: #493c3a;
+            margin-bottom: 15px;
+        }
+        #mainMenu a:hover{
+            color: #8b8b8b;
+        }
+
+        #itemAd{
+            width: 30%;
+            position: relative;
+            /* border: 1px solid black; */
+        }
+        #itemAd>#imageBox{
+            width: 70%;
+            height: 250px;
+            margin: auto;
+            /* border: 1px solid black; */
+        }
+
+        #imageBox>img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #imageInfoBox{
+            /* width: 100%; */
+            text-align: center;
+            font-size: 18px;
+            position: absolute;
+            /* margin: auto; */
+            top: 60%;
+            /* border: 1px solid black; */
+        }
+        
+        #imageInfoBox>h4{
+            background-color:#ff7451 ;
+            padding: 5px;
+            color: white;
+            display: inline-block;
+            margin-bottom: -20px;
+        }
+
+
+
+/* RightNavBar */
+
+        #rightNavbar{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            gap: 35px;
+        }
+
+        .rightnavbtnDivs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* position: relative; */
+        }
+
+        .rightnavbtns{
+            background-color: white;
+            border: none;
+            font-size: 18px;
+        }
+        .navHovers{
+            display: none;
+        }
+
+        #search:hover .navHovers {
+            display: inline;
+            position: absolute;
+            z-index: 1;
+            top: 100px;
+            background-color: black;
+            color: white;
+           font-size: 14px;
+           padding: 5px 10px;
+        }
+        #myAccount:hover .navHovers {
+            display: inline;
+            position: absolute;
+            z-index: 1;
+            top: 100px;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+        
+        #cart:hover .navHovers{
+            display: inline;
+            position: absolute;
+            z-index: 1;
+            top: 100px;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+        
+
+        /* search bar */
+
+        #showSearchBar{
+            /* width: 87%; */
+            width: 100%;
+            height: 150px;
+            display: none;
+            flex-direction: column;
+            /* justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+            align-self: center;
+            justify-self: center; */
+            
+            background-color: white;
+            position:absolute;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            
+            /* padding: 10px 100px; */
+            border: 1px solid black;
+        }
+        #showSearchBar>div{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #searchBarBox > input{
+            border: none;
+            border: transparent;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    
+        /* Acc Button */
+        
+        #myAccountDropDown{
+            padding: 10px 30px;
+            font-size: 18px;
+            line-height: 25px;
+            
+            display: none;
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            z-index: 1;
+            top: 110px;
+            background-color: white;
+        }
+        #myAccountDropDown>a{
+            text-decoration: none;
+            color: #828282;
+        }
+        #myAccountDropDown>#closeMyAccdiv{
+            background-color: burlywood;
+            color: black;
+            text-align: center;
+            margin-top: 5px;
+        }
+        #myAccountDropDown>#closeMyAccdiv:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        
+        #myAccountDropDown>a:hover{
+            color: #c6c7b1;
+        }
+
+
+
+        
+        
+     /*NAV PATH  */
+        
+        #navPath{
+            height: 20px;
+            padding: 3px;
+            background-color: #f0f1f3;
+        }

@@ -1,0 +1,30 @@
+#contentBox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: auto;
+}
+#contentBox > *{
+    margin: 5px 2px;
+}
+#contentBox>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contentBox>div>input{
+    
+}
+input{
+    padding: 10px;
+    width: 100%;
+    
+}
+#lastN{
+    margin-right: -30px;
+}
+#place>input{
+    margin-right: -30px;
+}
